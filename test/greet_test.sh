@@ -11,4 +11,7 @@ check 'Hello, world!'
 check 'Hello, Ada!' Ada
 check 'HELLO, ADA!' --shout Ada
 check 'HELLO, WORLD!' --shout
+check 'Ada, hello!' --name-first Ada
+check 'world, hello!' --name-first
+check 'ADA, HELLO!' --shout --name-first Ada
 exit $fail
