@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+chmod +x "$(dirname "$0")"/* "$(dirname "$0")"/../test/*.sh
+echo "setup complete"

@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+root=$(cd "$(dirname "$0")/.." && pwd)
+for f in "$root"/bin/* "$root"/lib/*.sh "$root"/test/*.sh; do sh -n "$f"; done
+echo "syntax ok"
+"$root/bin/test"
