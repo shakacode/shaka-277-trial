@@ -9,4 +9,6 @@ check() {
 }
 check 'Hello, world!'
 check 'Hello, Ada!' Ada
+check 'HELLO, ADA!' --shout Ada
+check 'HELLO, WORLD!' --shout
 exit $fail
