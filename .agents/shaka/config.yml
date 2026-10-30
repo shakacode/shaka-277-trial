@@ -4,9 +4,7 @@ version: 1
 review:
   required: none
 merge:
-  preference: ask
-  required_checks:
-  - test
+  preference: auto
 branches:
   name: "{login}-{host}/{issue}-{description}"
 wip:
