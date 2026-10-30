@@ -5,3 +5,4 @@ Disposable public fixture for live acceptance checks on
 safe to delete.
 
 `bin/greet NAME` prints a greeting; `bin/greet --shout NAME` prints it in upper case. Run `bin/setup`, `bin/test`, and `bin/validate`.
+Fork note.
